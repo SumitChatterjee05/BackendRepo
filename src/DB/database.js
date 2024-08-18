@@ -16,3 +16,6 @@ const connectDB=async()=>
 }
 
 export default connectDB;
+
+//Whenever we try to talk to database then we have to always keep 2 things in mind that data base is always in different continetn so always use async-await. Secondly to catch errors always use try catch. 
+// Since we have to do this everytime so create an utility for this caleed asyncHandler.
