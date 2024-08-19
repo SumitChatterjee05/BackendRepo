@@ -7,7 +7,7 @@ dotenv.config({
     path: './env'
 })
 
-connectDB()
+connectDB() //since connect Db is an asynchronous methos so it returns a promise, we then and catch that prmoise
 .then(()=>
     {
         app.listen(process.env.PORT || 8000), () =>{

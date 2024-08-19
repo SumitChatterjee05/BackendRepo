@@ -10,3 +10,5 @@ class ApiResponse
 }
 
 export {ApiResponse}
+
+//Servers have status code which should always be <400. There are various types of responses or messages each having their status code. Read ther MDN Documentation.
